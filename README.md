@@ -6,13 +6,10 @@ This is a code refractor for Horiseon website landing page. The purpose of this 
 
 ## Changes made 
 
-made HTML semantic and added tags ( article, section, header, nav, footer)
-structured html elements in a logical sstructure
-added accessible alt attributes
-made sure heading attributes fall in sequential order
-commented on CSS
-added a title element 
-consolidated and reorganized CSS to match HTML
+I made HTML semantic and added tags ( article, section, header, nav, footer).
+I structured html elements in a logical way and added accessible alt attributes.
+I made sure heading attributes fall in sequential order and commented on CSS file.
+I added a title element and consolidated and reorganized CSS to match HTML.
 
 
 ![renkayla github io_wk1-refractor-horiseon_ (1)](https://user-images.githubusercontent.com/116777951/221396081-f211cd6e-c506-4b30-9ef3-c335cd3f0ae8.png)
