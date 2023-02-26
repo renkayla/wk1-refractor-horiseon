@@ -85,12 +85,12 @@ section.content article.content img {
     max-height: 200px;
 }
 
-section.content article.content img .float-left {
+section.content article.content img.float-left {
     float: left;
     margin-right: 25px;
 }
 
-section.content article.content img .float-right {
+section.content article.content img.float-right {
     float: right;
     margin-left: 25px;
 }
