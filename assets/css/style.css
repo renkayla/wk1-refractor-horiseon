@@ -1,9 +1,13 @@
-/* body */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
+
+
+/*   body   */
 body {
     background-color: #d9dcd6;
 }
@@ -17,9 +21,8 @@ p {
 
 
 
-
-/* header */
-header {
+/*  header    */
+    header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -35,8 +38,7 @@ header h1 .seo {
 
 
 
-
-/* head nav links */
+ /* head nav links */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -62,7 +64,7 @@ div.hero {
 div.hero img {
     height: 800px;
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 
