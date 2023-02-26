@@ -62,7 +62,8 @@ p {
     background-position: center;
 }
 
-.float-left {
+
+.article .float-left {
     float: left;
     margin-right: 25px;
 }
