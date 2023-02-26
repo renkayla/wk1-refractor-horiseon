@@ -4,7 +4,7 @@
 
 This is a code refractor for Horiseon website landing page. The purpose of this refractor is to optimize the site for search engines and follow accessibility standards. The refractor does not change how the website is viewed.
 
-## Changes made 
+## Changes Made 
 
 I made HTML semantic and added tags ( article, section, header, nav, footer).
 I structured html elements in a logical way and added accessible alt attributes.
