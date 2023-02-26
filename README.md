@@ -15,6 +15,7 @@ added a title element
 consolidated and reorganized CSS to match HTML
 
 
+![renkayla github io_wk1-refractor-horiseon_ (1)](https://user-images.githubusercontent.com/116777951/221396081-f211cd6e-c506-4b30-9ef3-c335cd3f0ae8.png)
 
 
 ## Installation
