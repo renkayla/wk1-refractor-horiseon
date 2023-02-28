@@ -1,11 +1,11 @@
+/*   !! BODY !!   */
+
 /* this is the css reset */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/*   !! BODY !!   */
-
 /* this is the bodys background color */
 body {
     background-color: #d9dcd6;
