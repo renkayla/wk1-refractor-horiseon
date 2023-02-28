@@ -1,37 +1,42 @@
-
+/* this is the css reset */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/*   !! BODY !!   */
 
-
-
-/*   body   */
+/* this is the bodys background color */
 body {
     background-color: #d9dcd6;
 }
+/* this is all of the links on the page color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
+/* this is all the paragraphs texts sizing */
 p {
     font-size: 16px;
 }
 
 
 
-/*  header    */
+/*      !! HEADER !!        */
+
+/* this is the style detail of the header section */
     header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
+/* header h1 details */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
+/* the portion of the h1 that has a different color than the rest of the word */
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -47,11 +52,11 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/*no item marker will be shown*/
+/* no item marker will be shown */
 header nav ul {
     list-style-type: none;
 }
-/*this keeps the links in line */
+/* this keeps the links in line */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -59,11 +64,16 @@ header nav ul li {
 
 
 
+/*   !!    MAIN   !!   */
 
-/*  */
+
+/* HERO */
+
+/* this is the top large image and its size preferances */
 div.hero {
     margin-bottom: 25px;
 }
+/* used object-fit to fill the page appropriately */
 div.hero img {
     height: 800px;
     width: 100%;
@@ -71,19 +81,15 @@ div.hero img {
 }
 
 
+/*  SECTION ARTICLE CONTENT */
 
-
-/* section content */
+/* all of section.content to be inline and have this width and left margin */
 section.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-
-
-
-/* articles and descriptions */
+/* articles and descriptive paragraphs, their sizing, typography, color of lettering, and where in location of the box they will be */
 section.content article.content {
     margin-bottom: 20px;
     padding: 50px;
@@ -92,26 +98,29 @@ section.content article.content {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* section.content images, all of their max heights combined together */
 section.content article.content img {
     max-height: 200px;
 }
+/* this is seperated because two images float left, and their respective margin definition */
 section.content article.content img.float-left {
     float: left;
     margin-right: 25px;
 }
+/* this is seperated because it floats right and its margin definition */
 section.content article.content img.float-right {
     float: right;
     margin-left: 25px;
 }
+/* this is where the header for the section article content's styling is, also combines all three header styles into one for consolidation because they are all the same */
 section.content article.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* ASIDE BENEFITS*/
 
-
-
-/* benefits aside*/
+/* this is the box section located on the right side of the screen all the properties i can combine because they are all the same */
 aside.benefits {
     margin-right: 20px;
     padding: 20px;
@@ -122,20 +131,18 @@ aside.benefits {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-
-
-
-/* benefits and articles descriptions*/
+/* article.benefit consolidated style */
 aside.benefits article.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* article benefit h3 consolidated style */
 aside.benefits article.benefit h3 {
     font-size: 16px;
     margin-bottom: 10px;
     text-align: center;
 }
+/* article benefit images consolidated style */
 aside.benefits article.benefit img {
     display:block;
     margin: 10px auto;
@@ -145,13 +152,16 @@ aside.benefits article.benefit img {
 
 
 
-/* footer */
+/*    !!  FOOTER  !!       */
+
+/* all of footer content style except h2 */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+/* h2 specified style */
 footer h2 {
     font-size: 20px;
 }
