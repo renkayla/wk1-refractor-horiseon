@@ -37,8 +37,9 @@ header h1 .seo {
 }
 
 
+/* NAVIGATION LINKS */
 
- /* head nav links */
+ /* this is the location and style of the top navigation links */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,9 +47,11 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+/*no item marker will be shown*/
 header nav ul {
     list-style-type: none;
 }
+/*this keeps the links in line */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -57,7 +60,7 @@ header nav ul li {
 
 
 
-/* main */
+/*  */
 div.hero {
     margin-bottom: 25px;
 }
